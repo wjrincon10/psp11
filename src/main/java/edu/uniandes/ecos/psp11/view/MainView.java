@@ -23,8 +23,9 @@ public class MainView {
         pw.write("<html>");
         pw.println("<h1>PSP 1.1 Program!</h1>");
         
-        pw.write("<form action=\"calc\" method=\"post\"> \n" +
+         pw.write("<form action=\"calc\" method=\"post\"> \n" +
                 "    Ingrese los numeros X: <input type=\"text\" name=\"calcx\">\n" +
+                "    Ingrese los numeros Y: <input type=\"text\" name=\"calcy\">\n" +
                 "    <input type=\"submit\" value=\"Calc\">\n" +
                 "</form> ");
         pw.write("</html>");
